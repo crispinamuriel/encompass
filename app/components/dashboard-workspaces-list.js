@@ -39,7 +39,4 @@ Encompass.DashboardWorkspacesListComponent = Ember.Component.extend(Encompass.Cu
 
     this.myLinkedAssignments = workspaceLinkedAssignmentIds;
   },
-
-
-
 });

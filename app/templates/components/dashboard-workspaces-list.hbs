@@ -25,7 +25,7 @@
             {{#each workspaces.content as |workspace|}}
               {{!-- {{log workspace.__relationships.initializedRelationships.linkedAssignment}} --}}
               {{dashboard-workspace-row
-              classNames="ws-table" workspace=workspace linkedAssignments=myLinkedAssignments assignments=assignments}}
+              classNames="ws-table" workspace=workspace linkedAssignments=myLinkedAssignments assignments=assignments store=store}}
             {{/each}}
           </table>
         </div>
