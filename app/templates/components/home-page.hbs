@@ -14,7 +14,7 @@
   {{#if user.isAuthenticated}}
     <h1 class="header-home">My Work Landing Page</h1>
     <span class="toggle-role" {{action 'showToggleModal' }}>
-      <span class="header-home al_wtf_link">Problems to Solve (switch to student role)</span>
+      <span class="header-home">Problems to Solve <button class="button-tog"><span>switch to student role</span></button></span>
     </span>
 
     {{dashboard-workspaces-list store=store user=user workspaces=workspaces assignments=assignments}}
